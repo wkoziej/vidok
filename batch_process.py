@@ -49,7 +49,7 @@ def create_job_key(job):
     return job.get('image', '')
 
 
-def run_single_job(job, output_dir=None):
+def run_single_job(job, output_dir=None, demo_script='demo_gradio.py'):
     """Run single demo_gradio.py CLI job"""
     image_path = job.get('image')
     prompt = job.get('prompt')
@@ -62,7 +62,7 @@ def run_single_job(job, output_dir=None):
     
     # Build command
     cmd = [
-        sys.executable, 'demo_gradio.py', '--cli',
+        sys.executable, demo_script, '--cli',
         '--input_image', image_path,
         '--prompt', prompt
     ]
@@ -120,7 +120,7 @@ def run_single_job(job, output_dir=None):
         return False, str(e)
 
 
-def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False, dry_run=False):
+def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False, dry_run=False, demo_script='demo_gradio.py'):
     """Main processing function"""
     
     # File paths
@@ -175,7 +175,7 @@ def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False
             # Submit jobs
             future_to_job = {}
             for job in pending_jobs:
-                future = executor.submit(run_single_job, job, output_dir)
+                future = executor.submit(run_single_job, job, output_dir, demo_script)
                 future_to_job[future] = job
             
             # Process completed jobs
@@ -237,6 +237,8 @@ def main():
                        help='Reprocess all jobs, ignore progress file')
     parser.add_argument('--dry-run', action='store_true',
                        help='Show what would be processed without running')
+    parser.add_argument('--demo-script', type=str, default='demo_gradio.py',
+                       help='Path to demo_gradio.py script (default: demo_gradio.py)')
     
     args = parser.parse_args()
     
@@ -246,8 +248,9 @@ def main():
         sys.exit(1)
     
     # Validate demo_gradio.py exists
-    if not os.path.exists('demo_gradio.py'):
-        print("❌ Error: demo_gradio.py not found in current directory!")
+    if not os.path.exists(args.demo_script):
+        print(f"❌ Error: Demo script '{args.demo_script}' not found!")
+        print(f"💡 Try: --demo-script FramePack/demo_gradio.py")
         sys.exit(1)
     
     print("🎬 FramePack Batch Processor")
@@ -259,7 +262,8 @@ def main():
             parallel=args.parallel,
             output_dir=args.output_dir,
             force_reprocess=args.force_reprocess,
-            dry_run=args.dry_run
+            dry_run=args.dry_run,
+            demo_script=args.demo_script
         )
     except KeyboardInterrupt:
         print("\n⚠️  Interrupted by user")
