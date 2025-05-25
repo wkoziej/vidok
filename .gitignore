@@ -4,24 +4,8 @@
 # Environment variables
 .env
 
-# Documentation
-README.md
-TODO.md
-KUBEFLOW_SETUP.md
 
-# Python files
-check_kubeflow_api.py
-kubeflow_client.py
-process_images.py
-process_with_cli.py
 
-# Shell scripts
-
-create_cycle_video.sh
-process_all_videos.sh
-
-# Text files with prompts
-image_prompts*.txt
 
 # Requirements
 requirements.txt
