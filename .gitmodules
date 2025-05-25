@@ -1,0 +1,3 @@
+[submodule "FramePack"]
+	path = FramePack
+	url = git@github.com:wkoziej/FramePack.git

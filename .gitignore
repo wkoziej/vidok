@@ -1,0 +1,68 @@
+# Python virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Documentation
+README.md
+TODO.md
+KUBEFLOW_SETUP.md
+
+# Python files
+check_kubeflow_api.py
+kubeflow_client.py
+process_images.py
+process_with_cli.py
+
+# Shell scripts
+
+create_cycle_video.sh
+process_all_videos.sh
+
+# Text files with prompts
+image_prompts*.txt
+
+# Requirements
+requirements.txt
+
+# Submodules are managed by git and should NOT be ignored
+# FramePack/ - this is a submodule, don't ignore it
+
+# Image directories
+images/
+images2/
+images3/
+images4/
+images5/
+images6/
+images_next/
+clip/
+
+# Pipeline directories  
+pipelines/
+
+# Common Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 
