@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "image": "data/images/burning glasses on the face  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_31.jpg",
+      "prompt": "The robotic figure turns its head slowly, scanning the horizon with its futuristic goggles.",
+      "duration": 5.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the face  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_42.jpg",
+      "prompt": "The robotic figure's head rotates slowly, gears and cables extending and retracting with mechanical precision.",
+      "duration": 5.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the face  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_58.jpg",
+      "prompt": "The cybernetic figure's head swivels slowly against the backdrop of the glowing planet, emitting mechanical whirrs.",
+      "duration": 5.0,
+      "seed": 12345
+    }
+  ]
+}

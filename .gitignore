@@ -30,7 +30,8 @@ requirements.txt
 # FramePack/ - this is a submodule, don't ignore it
 
 # Image directories
-images/
+waiting/
+images_1/
 images2/
 images3/
 images4/
