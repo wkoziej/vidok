@@ -7,6 +7,36 @@
       "seed": 12345
     },
     {
+      "image": "data/images/ melting candles made of scales in the forest in the style of Salvador Dali_3.jpg",
+      "prompt": "The candles flicker gently, casting a warm, dancing glow as the forest's ambient light subtly shifts, creating a serene, mystical atmosphere.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ strange creature  on the stage detailed and superrealistic_3.jpg",
+      "prompt": "The creature's eyes blink slowly as its nostrils flare, while the stage lights cast dynamic shadows across its textured skin.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/exploding watch made of clay in the forest in the style of Zdzisław Beksiński_0.jpg",
+      "prompt": "The textured surface of the watch face subtly shifts, as the hands move gently around the dial, casting soft shadows on the intricate patterns.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ strange creature  in the cave detailed and superrealistic_2.jpg",
+      "prompt": "The creature's eyes shift curiously while its nostrils flare gently, reacting to the cool, damp air of the cave.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ stomach and breast  on the beach in the style of Zdzisław Beksiński_4.jpg",
+      "prompt": "The figures' hair sways gently in the coastal breeze, while subtle ripples move across the calm ocean behind them.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
       "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_0.jpg",
       "prompt": "The large airships hover gently, their metallic surfaces glinting in the fading light as they drift slowly across the vivid sunset sky.",
       "duration": 6.0,
@@ -15,6 +45,24 @@
     {
       "image": "data/images/ancient sky jet powered over the desert stormy sky in the style of Zdzisław Beksiński_29.jpg",
       "prompt": "The surreal aircraft's textures ripple slightly as distant lightning flickers across the stormy sky.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/terrifying form of AI made of scales in the forest detailed and superrealistic_3.jpg",
+      "prompt": "The robot's LED eyes blink slowly while its head turns slightly, scanning the tranquil forest.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/terrifying form of AI carved in wood in the mountain in the style of Max Ernst_4.jpg",
+      "prompt": "The carved face's intricate details subtly shift as shadows dance across the wooden surface, enhancing its expression.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/exploding watch made from stone in the mountain in the style of Zdzisław Beksiński_2.jpg",
+      "prompt": "The watch hands move smoothly across the textured, rock-like face, casting soft shadows over the rugged surface as ambient light shifts gently.",
       "duration": 6.0,
       "seed": 12345
     },
@@ -723,6 +771,12 @@
     {
       "image": "data/images/ancient airship   over the desert sky in the style of Zdzisław Beksiński_25.jpg",
       "prompt": "The massive hovering vessel gently sways in the desert breeze, while distant clouds drift slowly across the sky, casting soft shadows on the landscape below.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/exploding watch made from stone on the desert in the style of Zdzisław Beksiński_1.jpg",
+      "prompt": "The watch's hands tick steadily around the textured stone dial, while subtle light reflections play across its rugged surface.",
       "duration": 6.0,
       "seed": 12345
     }
