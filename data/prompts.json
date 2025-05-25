@@ -17,6 +17,60 @@
       "prompt": "The cybernetic figure's head swivels slowly against the backdrop of the glowing planet, emitting mechanical whirrs.",
       "duration": 5.0,
       "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the face  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_52.jpg",
+      "prompt": "The goggles rotate and light pulses through the wires, creating a mesmerizing electrical dance.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_40.jpg",
+      "prompt": "The cyborg turns its head slightly, antennas twitching, as small spacecraft zoom across the sky.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_41.jpg",
+      "prompt": "The mechanical head rotates slowly, wires extending outward, with the background glowing pulsatingly.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_43.jpg",
+      "prompt": "The robot's eyes ignite with fiery swirls, pulsating with energy.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_50.jpg",
+      "prompt": "The mechanical head hovers and rotates gently in mid-air as distant planets orbit slowly in the background.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_30.jpg",
+      "prompt": "The headpiece pulses with lights and whirring gears, emitting small sparks and wisps of smoke.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_56.jpg",
+      "prompt": "The astronaut floats weightlessly in space as planets slowly orbit around.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the head  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_54.jpg",
+      "prompt": "The head floats and spins gently amidst drifting space debris and shooting stars.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/burning glasses on the face  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_48.jpg",
+      "prompt": "The cyborg's headgear rotates, gears whirring with intricate mechanical precision.",
+      "duration": 6.0,
+      "seed": 12345
     }
   ]
 }
