@@ -7,6 +7,54 @@
       "seed": 12345
     },
     {
+      "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_0.jpg",
+      "prompt": "The large airships hover gently, their metallic surfaces glinting in the fading light as they drift slowly across the vivid sunset sky.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient sky jet powered over the desert stormy sky in the style of Zdzisław Beksiński_29.jpg",
+      "prompt": "The surreal aircraft's textures ripple slightly as distant lightning flickers across the stormy sky.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship jet powered  over the desert sky in the style of Zdzisław Beksiński_22.jpg",
+      "prompt": "The floating spacecraft gently sways in mid-air as subtle lights flicker along its hull, while dust swirls lightly across the desert landscape below.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/great idea made from stone in the middle of nowhere in the style of Zdzisław Beksiński 15.png",
+      "prompt": "The stone face slowly crumbles, with small pieces gently falling away, while a soft breeze rustles the grass below, carrying distant whispers.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/tattooed hands made from oil in the middle of nowhere _7.png",
+      "prompt": "The tattoos on the hands appear to subtly shift and breathe, as the designs softly ripple like waves with each exhale.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/tattooed hands made from oil in the deep forest _8.png",
+      "prompt": "The tattoos on the person's arm subtly shift hues, with intricate designs appearing to breathe as they come to life, the colors swirling gently under the skin.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/tattooed hands made from stone in the deep forest in the style of Salvadore Dali_9.png",
+      "prompt": "The moon faces on the hands subtly shift their expressions, as the surrounding leaves faintly rustle in an imagined breeze.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/tattooed hands made from oil in the deep forest _5.png",
+      "prompt": "The vibrant snake tattoo on the hands seems to subtly slither, as if alive, while the forest scene softly sways in an imagined breeze.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
       "image": "data/images/burning glasses on the face  of the robot  floating in the space in the style of Zdzisław Beksiński. zoom on glasses_42.jpg",
       "prompt": "The robotic figure's head rotates slowly, gears and cables extending and retracting with mechanical precision.",
       "duration": 5.0,
@@ -541,36 +589,6 @@
       "seed": 12345
     },
     {
-      "image": "data/images/stormy airship  over the desert stormy sky in the style of Zdzisław Beksiński_21.jpg",
-      "prompt": "The large airship drifts majestically across the desert landscape, casting a slow-moving shadow below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_14.jpg",
-      "prompt": "The airship soars majestically, gliding over mountains beneath a vivid sky.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/ancient airship   over the desert sky in the style of Zdzisław Beksiński_25.jpg",
-      "prompt": "The massive ship floats smoothly, soaring through the desert sky.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_0.jpg",
-      "prompt": "The airships glide smoothly across the colorful sky, casting shadows on the desert below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/ancient sky jet powered over the desert stormy sky in the style of Zdzisław Beksiński_29.jpg",
-      "prompt": "The massive structure glides smoothly across the desert as lightning crackles above.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
       "image": "data/images/stormy airship jet powered over the mountains in the style of Zdzisław Beksiński_10.jpg",
       "prompt": "The massive airship soars gracefully over jagged mountains, drifting through swirling clouds.",
       "duration": 6.0,
@@ -691,8 +709,20 @@
       "seed": 12345
     },
     {
-      "image": "data/images/colorful airship jet powered  over the desert sky in the style of Zdzisław Beksiński_22.jpg",
-      "prompt": "The airship slowly ascends into the vivid sky, cables swaying in the breeze.",
+      "image": "data/images/stormy airship  over the desert stormy sky in the style of Zdzisław Beksiński_21.jpg",
+      "prompt": "The massive airship gently sways as it floats through the sky, with wisps of clouds trailing alongside it.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_14.jpg",
+      "prompt": "The airship glides steadily through the sky, with its fabric canopy gently rippling in the wind and its long suspension cables swaying slightly against the backdrop of distant mountains.",
+      "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient airship   over the desert sky in the style of Zdzisław Beksiński_25.jpg",
+      "prompt": "The massive hovering vessel gently sways in the desert breeze, while distant clouds drift slowly across the sky, casting soft shadows on the landscape below.",
       "duration": 6.0,
       "seed": 12345
     }
