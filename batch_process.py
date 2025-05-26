@@ -49,7 +49,7 @@ def create_job_key(job):
     return job.get('image', '')
 
 
-def run_single_job(job, output_dir=None, demo_script='demo_gradio.py'):
+def run_single_job(job, output_dir=None, demo_script='demo_gradio.py', gpu_id=None):
     """Run single demo_gradio.py CLI job"""
     image_path = job.get('image')
     prompt = job.get('prompt')
@@ -98,29 +98,37 @@ def run_single_job(job, output_dir=None, demo_script='demo_gradio.py'):
     elif job.get('output'):
         cmd.extend(['--output', job['output']])
     
-    print(f"🚀 Starting: {os.path.basename(image_path)}")
+    # Set up environment with specific GPU
+    env = os.environ.copy()
+    if gpu_id is not None:
+        env['CUDA_VISIBLE_DEVICES'] = str(gpu_id)
+        gpu_info = f" (GPU {gpu_id})"
+    else:
+        gpu_info = ""
+    
+    print(f"🚀 Starting: {os.path.basename(image_path)}{gpu_info}")
     print(f"   Command: {' '.join(cmd)}")
     
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=3600)  # 1 hour timeout
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=3600, env=env)  # 1 hour timeout
         
         if result.returncode == 0:
-            print(f"✅ Completed: {os.path.basename(image_path)}")
+            print(f"✅ Completed: {os.path.basename(image_path)}{gpu_info}")
             return True, "Success"
         else:
             error_msg = result.stderr.strip() or result.stdout.strip() or "Unknown error"
-            print(f"❌ Failed: {os.path.basename(image_path)} - {error_msg}")
+            print(f"❌ Failed: {os.path.basename(image_path)}{gpu_info} - {error_msg}")
             return False, error_msg
             
     except subprocess.TimeoutExpired:
-        print(f"⏰ Timeout: {os.path.basename(image_path)}")
+        print(f"⏰ Timeout: {os.path.basename(image_path)}{gpu_info}")
         return False, "Timeout after 1 hour"
     except Exception as e:
-        print(f"💥 Error: {os.path.basename(image_path)} - {str(e)}")
+        print(f"💥 Error: {os.path.basename(image_path)}{gpu_info} - {str(e)}")
         return False, str(e)
 
 
-def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False, dry_run=False, demo_script='demo_gradio.py'):
+def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False, dry_run=False, demo_script='demo_gradio.py', num_gpus=1):
     """Main processing function"""
     
     # File paths
@@ -131,6 +139,7 @@ def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False
     print(f"📊 Progress: {progress_file}")
     print(f"❌ Failed: {failed_file}")
     print(f"🔧 Parallel: {parallel}")
+    print(f"🎮 GPUs: {num_gpus}")
     if output_dir:
         print(f"📁 Output: {output_dir}")
     print("=" * 50)
@@ -174,8 +183,10 @@ def process_jobs(config_file, parallel=1, output_dir=None, force_reprocess=False
         with ThreadPoolExecutor(max_workers=parallel) as executor:
             # Submit jobs
             future_to_job = {}
-            for job in pending_jobs:
-                future = executor.submit(run_single_job, job, output_dir, demo_script)
+            for i, job in enumerate(pending_jobs):
+                # Distribute jobs across available GPUs
+                gpu_id = i % num_gpus if num_gpus > 1 else None
+                future = executor.submit(run_single_job, job, output_dir, demo_script, gpu_id)
                 future_to_job[future] = job
             
             # Process completed jobs
@@ -239,6 +250,8 @@ def main():
                        help='Show what would be processed without running')
     parser.add_argument('--demo-script', type=str, default='demo_gradio.py',
                        help='Path to demo_gradio.py script (default: demo_gradio.py)')
+    parser.add_argument('--num-gpus', type=int, default=1,
+                       help='Number of GPUs to use (default: 1)')
     
     args = parser.parse_args()
     
@@ -263,7 +276,8 @@ def main():
             output_dir=args.output_dir,
             force_reprocess=args.force_reprocess,
             dry_run=args.dry_run,
-            demo_script=args.demo_script
+            demo_script=args.demo_script,
+            num_gpus=args.num_gpus
         )
     except KeyboardInterrupt:
         print("\n⚠️  Interrupted by user")
