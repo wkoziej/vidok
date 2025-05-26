@@ -110,6 +110,32 @@ def load_existing_data(output_file):
             return {}
     return {}
 
+def clean_missing_images(existing_data, image_dir, dry_run=False):
+    """Remove entries from existing_data where the image file doesn't exist"""
+    cleaned_data = {}
+    removed_count = 0
+    
+    for image_path, entry in existing_data.items():
+        # Check if the image file exists
+        # Handle both absolute and relative paths
+        if os.path.isabs(image_path):
+            full_path = image_path
+        else:
+            full_path = os.path.join(os.getcwd(), image_path)
+        
+        if os.path.exists(full_path):
+            cleaned_data[image_path] = entry
+        else:
+            if dry_run:
+                print(f"  🗑️  Would remove entry for missing image: {image_path}")
+                # In dry run, keep the entry in cleaned_data to avoid affecting the rest of the logic
+                cleaned_data[image_path] = entry
+            else:
+                print(f"  🗑️  Removing entry for missing image: {image_path}")
+            removed_count += 1
+    
+    return cleaned_data, removed_count
+
 def save_data(output_file, data_dict):
     """Save data to JSON file"""
     # Convert dict back to list format
@@ -132,6 +158,8 @@ def main():
                        help='Default video duration in seconds (default: 5.0)')
     parser.add_argument('--seed', '-s', type=int, default=31337,
                        help='Default seed value (default: 31337)')
+    parser.add_argument('--dry-run', action='store_true',
+                       help='Show what would be done without making any changes')
     
     args = parser.parse_args()
     
@@ -139,6 +167,7 @@ def main():
     output_file = args.output
     default_duration = args.duration
     default_seed = args.seed
+    dry_run = args.dry_run
     
     # Check if image directory exists
     if not os.path.exists(image_dir):
@@ -157,9 +186,28 @@ def main():
     
     print(f"Found {len(image_paths)} images in {image_dir}")
     
+    if dry_run:
+        print(f"🔍 DRY RUN MODE - No changes will be made")
+    
     # Load existing data
     existing_data = load_existing_data(output_file)
     print(f"Loaded {len(existing_data)} existing entries from {output_file}")
+    
+    # Clean up entries for missing images
+    removed_count = 0  # Track removed entries for summary
+    if existing_data:
+        print(f"🧹 Checking for missing images...")
+        existing_data, removed_count = clean_missing_images(existing_data, image_dir, dry_run)
+        if removed_count > 0:
+            if dry_run:
+                print(f"  Would remove {removed_count} entries for missing images")
+            else:
+                print(f"  Removed {removed_count} entries for missing images")
+                # Save the cleaned data immediately
+                save_data(output_file, existing_data)
+                print(f"  Updated {output_file}")
+        else:
+            print(f"  No missing images found")
     
     # Process images
     new_count = 0
@@ -179,31 +227,45 @@ def main():
             continue
         
         # Generate prompt for new image
-        print(f"  🤖 Generating prompt...")
-        prompt = generate_motion_prompt(image_path)
-        
-        if prompt:
-            # Add new entry
-            existing_data[relative_image_path] = {
-                "image": relative_image_path,
-                "prompt": prompt,
-                "duration": default_duration,
-                "seed": default_seed
-            }
-            print(f"  ✓ Generated: {prompt}")
+        if dry_run:
+            print(f"  🤖 Would generate prompt for this image")
             new_count += 1
-            
-            # Save after each successful generation (in case of interruption)
-            save_data(output_file, existing_data)
         else:
-            print(f"  ❌ Failed to generate prompt")
+            print(f"  🤖 Generating prompt...")
+            prompt = generate_motion_prompt(image_path)
+            
+            if prompt:
+                # Add new entry
+                existing_data[relative_image_path] = {
+                    "image": relative_image_path,
+                    "prompt": prompt,
+                    "duration": default_duration,
+                    "seed": default_seed
+                }
+                print(f"  ✓ Generated: {prompt}")
+                new_count += 1
+                
+                # Save after each successful generation (in case of interruption)
+                save_data(output_file, existing_data)
+            else:
+                print(f"  ❌ Failed to generate prompt")
     
     print(f"\n📊 Summary:")
     print(f"  Total images: {len(image_paths)}")
     print(f"  Already processed: {skipped_count}")
-    print(f"  Newly processed: {new_count}")
-    print(f"  Failed: {len(image_paths) - skipped_count - new_count}")
-    print(f"  Output saved to: {output_file}")
+    if dry_run:
+        print(f"  Would process: {new_count}")
+        if new_count == 0:
+            print(f"  Failed: 0")
+        if removed_count > 0:
+            print(f"  Would remove entries for missing images: {removed_count}")
+        print(f"  No changes made (dry run)")
+    else:
+        print(f"  Newly processed: {new_count}")
+        print(f"  Failed: {len(image_paths) - skipped_count - new_count}")
+        if removed_count > 0:
+            print(f"  Removed entries for missing images: {removed_count}")
+        print(f"  Output saved to: {output_file}")
 
 if __name__ == "__main__":
     main() 

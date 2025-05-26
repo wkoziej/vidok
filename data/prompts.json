@@ -583,201 +583,303 @@
       "seed": 12345
     },
     {
-      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_25.jpg",
-      "prompt": "The airship drifts gracefully through the sky, soaring over the rugged mountain landscape.",
+      "image": "data/images/exploding watch made from stone on the desert in the style of Zdzisław Beksiński_1.jpg",
+      "prompt": "The watch's hands tick steadily around the textured stone dial, while subtle light reflections play across its rugged surface.",
       "duration": 6.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic empty underwater abyss of the ocean  seen in a glass ball in the style of Zdzisław Beksiński_3.jpg",
+      "prompt": "The ocean's waves inside the glass sphere gently ripple and shimmer as light dances across the surface, creating a soothing, dynamic effect.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/in the mountain on the edge of a precipice, with a collapsed bridge robotic  pig made of metal  .detailed image in the style of Zdzisław Beksiński mixed with style of dreamwork studio _1.jpg",
+      "prompt": "The mechanical pig's sturdy legs subtly shift as it steadies itself on the ledge, with steam intermittently puffing from its joints.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks  seen in a glass ball in the style of Zdzisław Beksiński_10.jpg",
+      "prompt": "The reflective spheres slowly rotate, shifting the desert landscape within them, while the distant sands shimmer softly under the warm sun.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/2e035bd10a0f8bbc.txt_4.jpg",
+      "prompt": "The robot's mechanical fingers twitch subtly as it stirs the sand gently, while a thin wisp of dust rises and sways in the arid breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic empty underwater abyss of the ocean  seen in a glass ball in the style of Zdzisław Beksiński_20.jpg",
+      "prompt": "The glass sphere shimmers subtly, with its inner ocean waves gently undulating and light glinting off the cresting water.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks  seen in a glass ball in the style of Zdzisław Beksiński_3.jpg",
+      "prompt": "The mysterious object inside the glass sphere gently rotates, catching reflections of the desert landscape, while tiny particles float lazily in the enclosed space.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks  seen in a glass ball in the style of Zdzisław Beksiński_19.jpg",
+      "prompt": "The reflective sphere subtly rotates, casting shifting highlights over the alien desert landscape, while distant stars twinkle softly in the vast sky.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks   in the style of Zdzisław Beksiński_21.jpg",
+      "prompt": "The ancient, intricate machine subtly shifts its legs, mimicking a gentle mechanical breath, while distant clouds drift slowly across the eerie desert sky.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic empty underwater abyss of the ocean  seen in a glass ball in the style of Zdzisław Beksiński_14.jpg",
+      "prompt": "The scene within the glass orb shimmers as gentle waves ripple across the water, casting moving reflections on the cavern walls.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks  seen in a glass ball in the style of Zdzisław Beksiński_2.jpg",
+      "prompt": "The spherical, weathered spaceship gently rotates, casting dynamic shadows on the desert sands, while occasional particles of dust swirl around it in the breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/4c3e5021626011ce.txt_2.jpg",
+      "prompt": "The robot gently swivels its head from side to side, while the mechanical components in its torso subtly pulse with a rhythmic, illuminated glow.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks  seen in a glass ball in the style of Zdzisław Beksiński_16.jpg",
+      "prompt": "The clear orb gently rotates, casting shifting reflections across the arid landscape, while soft desert winds stir the distant sands.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/in the mountain on the edge of a precipice, with a collapsed bridge robotic  pig made of sand  .detailed image in the style of Zdzisław Beksiński mixed with style of dreamwork studio _2.jpg",
+      "prompt": "The stone pig structure gently vibrates as if it's breathing, with faint dust particles falling from its ancient walls.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/majestic desert landscape filled with robot wrecks  seen in a glass ball in the style of Zdzisław Beksiński_26.jpg",
+      "prompt": "The glass orb gently rotates, reflecting and refracting the desert landscape around it, while faint ripples of light dance across its surface.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/in the mountain on the edge of a precipice, with a collapsed bridge robotic  pig made of metal  .detailed image in the style of Zdzisław Beksiński mixed with style of dreamwork studio _2.jpg",
+      "prompt": "The mechanical pig's gears and wires subtly whir and vibrate as its eyes occasionally blink with a soft mechanical glow.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/in the mountain on the edge of a precipice, with a collapsed bridge robotic  pig made of stone  .detailed image in the style of Zdzisław Beksiński mixed with style of dreamwork studio _7.jpg",
+      "prompt": "The massive stone structure’s surface subtly shifts and settles, as if breathing, while clouds drift slowly across the misty mountain backdrop.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/in the mountain on the edge of a precipice, with a collapsed bridge robotic  pig made of stone  .detailed image in the style of Zdzisław Beksiński mixed with style of dreamwork studio _19.jpg",
+      "prompt": "The stone structure gently vibrates as small, loose pebbles shift, while a faint mist drifts across the cliffside.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_25.jpg",
+      "prompt": "The airship gently sways and slightly ascends, while thin clouds drift across the expansive sky and the early light illuminates the mountainous horizon.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_15.jpg",
-      "prompt": "The airship floats gracefully across the desert sky, casting a moving shadow over the dunes.",
-      "duration": 6.0,
+      "prompt": "The airship gently sways in the desert breeze, with its colorful flags fluttering delicately against the clear sky, as the setting sun casts a warm glow over the vast dunes below.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_7.jpg",
-      "prompt": "The large airship majestically ascends into the sky, drifting over the landscape with balloons rising in the background.",
-      "duration": 6.0,
+      "prompt": "The airship's sails flutter gently in the breeze, as the clouds drift slowly across the sky.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_15.jpg",
-      "prompt": "The airship floats gently across the desert landscape, casting a shadow over the sand.",
-      "duration": 6.0,
+      "prompt": "The massive airship subtly sways in the sky, its surface catching the changing light, while distant clouds slowly roll across the desert horizon.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_17.jpg",
-      "prompt": "The airship glides majestically above the mountains, trailing wisps of clouds.",
-      "duration": 6.0,
+      "prompt": "The airship sails smoothly through the sky as its propellers spin steadily and exhaust clouds billow gently in its wake, casting soft shadows over the mountainous landscape below.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship jet powered over the desert stormy sky in the style of Zdzisław Beksiński_25.jpg",
-      "prompt": "The spaceship soars swiftly across the sky, trailing a dynamic vapor path behind it.",
-      "duration": 6.0,
+      "prompt": "The futuristic spaceship hovers gently in place as its hull subtly shimmers in the atmospheric haze, casting dynamic shadows on the desert floor below.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_27.jpg",
-      "prompt": "The massive airship glides smoothly across the sky, casting shadows over the desert landscape below.",
-      "duration": 6.0,
+      "prompt": "The large airborne vessel gently sways as the desert winds push against its hull, while the distant clouds drift slowly across the vibrant sky.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_13.jpg",
-      "prompt": "The airship floats majestically across the sky, drifting over mountains beneath a vibrant sunset.",
-      "duration": 6.0,
+      "prompt": "The airship gently drifts forward, its cables swaying slightly in the breeze, while the clouds slowly shift against the colorful sky.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/stormy airship  over the mountains in the style of Zdzisław Beksiński_12.jpg",
-      "prompt": "The airship drifts majestically across the sky, with clouds moving swiftly beneath it.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/stormy airship jet powered over the mountains in the style of Zdzisław Beksiński_10.jpg",
-      "prompt": "The massive airship soars gracefully over jagged mountains, drifting through swirling clouds.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/stormy airship   over the desert sky in the style of Zdzisław Beksiński_12.jpg",
-      "prompt": "The airship drifts gracefully over the desert landscape, clouds shifting slowly in the sky.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_14.jpg",
-      "prompt": "The airship floats slowly and majestically across the stormy sky.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_6.jpg",
-      "prompt": "The massive airship glides smoothly across the sky, casting a large shadow on the landscape below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_17.jpg",
-      "prompt": "The massive spaceship glides slowly across the colorful sky, casting a shadow over the landscape below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship jet powered  over the desert sky in the style of Zdzisław Beksiński_13.jpg",
-      "prompt": "The colossal airship glides smoothly across the desert landscape, casting a long shadow beneath it.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/ancient airship  over the mountains in the style of Zdzisław Beksiński_3.jpg",
-      "prompt": "The airship glides majestically across the vast sky above the rugged mountain landscape.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_8.jpg",
-      "prompt": "The airship gracefully soars over the mountains, casting shadows below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/ancient airship  over the mountains in the style of Zdzisław Beksiński_23.jpg",
-      "prompt": "The floating vessel glides majestically through the air above rugged mountains.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship jet powered  over the desert sky in the style of Zdzisław Beksiński_11.jpg",
-      "prompt": "The colossal airship soars majestically above the desert landscape, casting a dynamic shadow on the ground below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/stormy airship jet powered over the desert stormy sky in the style of Zdzisław Beksiński_26.jpg",
-      "prompt": "The large airborne ship cruises slowly across the sky, leaving the desert below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/stormy airship   over the desert sky in the style of Zdzisław Beksiński_10.jpg",
-      "prompt": "The massive airship glides slowly above the desert, casting a large shadow below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/stormy airship jet powered  over the desert sky in the style of Zdzisław Beksiński_21.jpg",
-      "prompt": "The massive airship hovers slowly over the barren landscape, casting a vast shadow below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_23.jpg",
-      "prompt": "The airship glides majestically over the mountains, casting a shadow on the landscape below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_4.jpg",
-      "prompt": "The futuristic airship glides smoothly through the vibrant sky, casting a shadow over the desert landscape below.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_24.jpg",
-      "prompt": "The airship ascends slowly, drifting forward over the vast desert landscape.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_9.jpg",
-      "prompt": "The airship glides smoothly over the mountainous landscape, drifting with the breeze.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_22.jpg",
-      "prompt": "The airship glides majestically through the sky, sails billowing in the wind above jagged mountains.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_4.jpg",
-      "prompt": "The airship drifts majestically through the sky, clouds moving briskly around it.",
-      "duration": 6.0,
-      "seed": 12345
-    },
-    {
-      "image": "data/images/stormy airship jet powered over the desert stormy sky in the style of Zdzisław Beksiński_18.jpg",
-      "prompt": "The airship soars majestically above the desert, casting a massive shadow below.",
-      "duration": 6.0,
+      "prompt": "The airship drifts slowly across the sky, gently rocking as wind sweeps past its massive hull, while distant clouds cascade in dynamic formations.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/stormy airship  over the desert stormy sky in the style of Zdzisław Beksiński_21.jpg",
-      "prompt": "The massive airship gently sways as it floats through the sky, with wisps of clouds trailing alongside it.",
-      "duration": 6.0,
+      "prompt": "The airship gently sways as it floats, with light clouds drifting in the sky behind, creating a serene, otherworldly scene.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_14.jpg",
-      "prompt": "The airship glides steadily through the sky, with its fabric canopy gently rippling in the wind and its long suspension cables swaying slightly against the backdrop of distant mountains.",
-      "duration": 6.0,
+      "prompt": "The airship drifts gracefully through the sky, its large sails fluttering gently in the breeze while clouds swirl slowly around it.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
       "image": "data/images/ancient airship   over the desert sky in the style of Zdzisław Beksiński_25.jpg",
-      "prompt": "The massive hovering vessel gently sways in the desert breeze, while distant clouds drift slowly across the sky, casting soft shadows on the landscape below.",
-      "duration": 6.0,
+      "prompt": "The hovering ship gently rocks as it drifts through the air, with scattered lights flickering rhythmically along its hull, casting elongated shadows on the barren ground below.",
+      "duration": 7.0,
       "seed": 12345
     },
     {
-      "image": "data/images/exploding watch made from stone on the desert in the style of Zdzisław Beksiński_1.jpg",
-      "prompt": "The watch's hands tick steadily around the textured stone dial, while subtle light reflections play across its rugged surface.",
-      "duration": 6.0,
+      "image": "data/images/stormy airship jet powered over the mountains in the style of Zdzisław Beksiński_10.jpg",
+      "prompt": "The airship hovers gently with a subtle rotation, while clouds drift slowly around it, creating a dynamic interplay between light and shadow.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/stormy airship   over the desert sky in the style of Zdzisław Beksiński_12.jpg",
+      "prompt": "The airship gently sways and rises, propelled by a subtle gust of wind, while shadows dance across the desert landscape below.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_14.jpg",
+      "prompt": "The airship drifts smoothly through the sky, while distant clouds subtly shift and swirl, casting dynamic shadows over the desert landscape below.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_6.jpg",
+      "prompt": "The airship hovers steadily while its fabric surface ripples subtly with the wind, casting shifting shadows on the desert below.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship   over the desert sky in the style of Zdzisław Beksiński_17.jpg",
+      "prompt": "The massive airship hovers gently, with its exterior lights slowly flickering on and off against the vibrant sunset sky, creating a mesmerizing display as shadows dance across the landscape below.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship jet powered  over the desert sky in the style of Zdzisław Beksiński_13.jpg",
+      "prompt": "The futuristic airship drifts slowly across the sky, its engines humming with a low, rhythmic vibration, while the sunset casts evolving hues across its metallic surface.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient airship  over the mountains in the style of Zdzisław Beksiński_3.jpg",
+      "prompt": "The airship gently drifts across the sky, with its propellers slowly rotating and fabric subtly rippling in the breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_8.jpg",
+      "prompt": "The airship gently sways as soft clouds drift by, and its propellers rotate slowly, reflecting the mountain-sunlight.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient airship  over the mountains in the style of Zdzisław Beksiński_23.jpg",
+      "prompt": "The airship gently drifts through the sky, with its sails subtly adjusting to the wind, while the clouds below slowly shift across the landscape.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship jet powered  over the desert sky in the style of Zdzisław Beksiński_11.jpg",
+      "prompt": "The futuristic ship hovers gently, its metallic surfaces glimmering in the desert sun, while distant clouds shift subtly in the vibrant sky.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/stormy airship jet powered over the desert stormy sky in the style of Zdzisław Beksiński_26.jpg",
+      "prompt": "The massive airship gently drifts through the dusty sky while its propellers begin to spin slowly, creating subtle vibrations that ripple through the air, with clouds swirling around its hull.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/stormy airship   over the desert sky in the style of Zdzisław Beksiński_10.jpg",
+      "prompt": "The massive airship subtly sways in the air, while the suspended cables below gently swing with the motion.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/stormy airship jet powered  over the desert sky in the style of Zdzisław Beksiński_21.jpg",
+      "prompt": "The massive, ancient ship subtly drifts forward, its engines humming with a deep, resonant vibration, while distant sand dunes shift slightly in a gentle breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_23.jpg",
+      "prompt": "The airship gently rocks back and forth as the large balloons above ripple with the breeze, casting shifting shadows on its intricate wooden hull.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_4.jpg",
+      "prompt": "The large airship gently drifts forward, its surface panels subtly shimmering as the vibrant sky creates shifting reflections.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the desert stormy sky in the style of Zdzisław Beksiński_24.jpg",
+      "prompt": "The airship gently sways as the tethered ropes creak softly, while distant clouds swirl slowly across the sky.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_9.jpg",
+      "prompt": "The fantastical airship drifts smoothly across the sky, with its intricate spires gently swaying as the clouds shift softly around it.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship jet powered over the mountains in the style of Zdzisław Beksiński_22.jpg",
+      "prompt": "The airship's sails billow subtly in the high-altitude breeze as sunlight glistens along its intricate structure, casting dynamic shadows on the mountainous landscape below.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/colorful airship  over the mountains in the style of Zdzisław Beksiński_4.jpg",
+      "prompt": "The airship drifts gracefully through the sky as soft clouds glide past, casting gentle shadows on the mountains below.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/stormy airship jet powered over the desert stormy sky in the style of Zdzisław Beksiński_18.jpg",
+      "prompt": "The colossal airship gently oscillates in mid-air, with its surface reflecting changing hues from the sun. Below, wisps of clouds drift slowly, casting fleeting shadows on the desert floor.",
+      "duration": 7.0,
       "seed": 12345
     }
   ]
