@@ -881,6 +881,96 @@
       "prompt": "The colossal airship gently oscillates in mid-air, with its surface reflecting changing hues from the sun. Below, wisps of clouds drift slowly, casting fleeting shadows on the desert floor.",
       "duration": 7.0,
       "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_1.jpg",
+      "prompt": "The robot's head rotates slowly as its mechanical eyes scan the desert landscape, and its antennae sway gently in the dry breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_17.jpg",
+      "prompt": "The figure on the towering rock sways slightly as its arms stretch skyward, with the robe fluttering gently in the breeze against the expansive horizon.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_8.jpg",
+      "prompt": "The mysterious figure's cloak flutters gently in the wind as its antlers sway slightly, with mist curling around the cliff edge.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_7.jpg",
+      "prompt": "The robot's mechanical joints shift subtly as sensors scan the horizon, occasionally pausing to adjust to the warm desert wind.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_2.jpg",
+      "prompt": "The creature's sand-like texture subtly shifts as grains flow down its body, while the wind gently sweeps the desert surface, creating small dust clouds.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_3.jpg",
+      "prompt": "The robot's head oscillates slowly as its eyes blink rhythmically, while the sand beneath subtly shifts with the desert breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_15.jpg",
+      "prompt": "The robot's mechanical arm slowly swivels, releasing small puffs of dust as its LED eyes flicker against the sandy desert backdrop.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_15.jpg",
+      "prompt": "The robot's joints subtly rotate as its head turns slowly, scanning the horizon, while occasional bursts of dust swirl around its feet in the dried landscape.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_4.jpg",
+      "prompt": "The robotic creature's metal joints creak subtly as it shifts its weight, while its antennae sway gently in the desert breeze. Dust swirls lightly around its feet across the sandy terrain.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_19.jpg",
+      "prompt": "The figure's hair sways gently in a phantom breeze, while the distant horizon flickers with wavering heat lines.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature partly covered with sand on the cliff  A painting in the style of Zdzisław Beksiński .txt_2.jpg",
+      "prompt": "The creature's eyes blink slowly with a haunting presence, as tendrils of sand writhe gently, mimicking a subtle breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_5.jpg",
+      "prompt": "The creature's eyes glow intensely as tendrils of mist swirl around its feet, and its fur ruffles with a ghostly breeze.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_0.jpg",
+      "prompt": "The cloaked figure's attire ripples gently in a mysterious breeze, with the distant mist shifting subtly around the towering peaks.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_0.jpg",
+      "prompt": "The robot's antennae sway gently in the desert breeze while its mechanical eyes flicker softly, casting small shadows on the sand.",
+      "duration": 7.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old creature standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_19.jpg",
+      "prompt": "The cloaked figure's tattered robes flutter gently in the wind, while its antler-like horns sway subtly. Mist drifts slowly through the distant peaks, enhancing the scene’s ethereal atmosphere.",
+      "duration": 7.0,
+      "seed": 12345
     }
   ]
 }

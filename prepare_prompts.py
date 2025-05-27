@@ -42,16 +42,15 @@ def generate_motion_prompt(image_path):
                 landscapes, buildings, food, plants, or any other prominent element - and animate THAT subject.
                 
                 PREFER: Natural movements appropriate to the subject type:
-                - PEOPLE: Expressive gestures, facial expressions, hair/clothing movement in breeze
-                - ANIMALS: Natural behaviors, ear/tail movements, breathing, looking around
-                - OBJECTS: Gentle swaying, rotating, subtle mechanical movements, light reflections
+                - PEOPLE: Playing, Expressive gestures, facial expressions, hair/clothing movement in breeze
+                - ANIMALS: Running, Natural behaviors, ear/tail movements, breathing, looking around
                 - VEHICLES: Engine vibrations, wheel movements, lights blinking
-                - ROBOTS: Mechanical gestures, LED indicators, servo movements
+                - ROBOTS: Movement, Mechanical gestures, LED indicators, servo movements, moving parts
                 - LANDSCAPES: Wind effects on trees/grass, water movement, cloud drift, light changes
                 - FOOD: Steam rising, gentle bubbling, appetizing presentation
                 - PLANTS: Swaying in breeze, leaves rustling, flowers opening slightly
                 
-                AVOID: Static poses, but also avoid dramatic transformations or unrealistic magic.
+                AVOID: Static poses
                 
                 Think: What would make the MAIN SUBJECT more alive and engaging while staying believable?
                 Examples of preferred styles:
