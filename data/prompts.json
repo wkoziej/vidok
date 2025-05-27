@@ -1109,6 +1109,102 @@
       "prompt": "The cloaked figure stands motionless as the wind gently tugs at his robes in the vast desert.",
       "duration": 12.0,
       "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_2.jpg",
+      "prompt": "The mechanical beast slowly marches across the desert, with gears whirring and sand shifting beneath its feet.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_3.jpg",
+      "prompt": "The robot slowly turns its head and body, scanning the horizon with glowing eyes.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_19.jpg",
+      "prompt": "The giant robot slowly turns its head and body, scanning the horizon with glowing eyes.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_1.jpg",
+      "prompt": "The robot dog is exploring the desert, occasionally pausing to scan the towering structures with curiosity.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_8.jpg",
+      "prompt": "The robot surveys the desert, scanning the horizon with glowing eyes.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss on the cliff  A painting in the style of Zdzisław Beksiński .txt_16.jpg",
+      "prompt": "The robot slowly turns its head and torso to gaze across the canyon at the lone figure.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss on the cliff  A painting in the style of Zdzisław Beksiński .txt_5.jpg",
+      "prompt": "The giant robot slowly turns its head and torso, scanning the horizon as if searching for something lost to time.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_17.jpg",
+      "prompt": "The large robotic walker strides slowly across the desert, its gears turning with each step.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_13.jpg",
+      "prompt": "The robotic horse and rider are slowly marching across the desert dunes, leaving tracks in the sand.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand on the cliff  A painting in the style of Zdzisław Beksiński .txt_0.jpg",
+      "prompt": "The mechanical creature slowly moves its legs, exploring the rocky cliffside.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_12.jpg",
+      "prompt": "The giant robot awakens slowly, turning its head to gaze across the barren landscape.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_14.jpg",
+      "prompt": "The giant robot is slowly raising its arm and surveying the snowy landscape below.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_17.jpg",
+      "prompt": "The robot steadily marches across the desert, sand swirling around its feet.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_12.jpg",
+      "prompt": "The robotic creature walks across the desert, gears whirring with each step.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_18.jpg",
+      "prompt": "The giant mech slowly turns its head and arms to gaze over the vast landscape.",
+      "duration": 20.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/ancient robot partly covered with sand in the desert  A painting in the style of Zdzisław Beksiński .txt_6.jpg",
+      "prompt": "The robot is slowly marching across the desert, leaving tracks in the sand.",
+      "duration": 20.0,
+      "seed": 12345
     }
   ]
 }
