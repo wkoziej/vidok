@@ -971,6 +971,42 @@
       "prompt": "The cloaked figure's tattered robes flutter gently in the wind, while its antler-like horns sway subtly. Mist drifts slowly through the distant peaks, enhancing the scene’s ethereal atmosphere.",
       "duration": 17.0,
       "seed": 12345
+    },
+    {
+      "image": "data/images/old robot standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_19.jpg",
+      "prompt": "The robot’s mechanical eyes blink with a soft glow, while its antennae slowly rotate, scanning the misty peaks below.",
+      "duration": 12.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_11.jpg",
+      "prompt": "The robot's LED eyes pulse slowly with a dim, rhythmic glow as its head turns slightly, scanning the desolate horizon.",
+      "duration": 12.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_12.jpg",
+      "prompt": "The robot's LED eyes flicker intermittently, and its rusted limbs creak slightly in the desolate landscape.",
+      "duration": 12.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot standing on the edge of the abyss in the desert  A painting in the style of Zdzisław Beksiński .txt_16.jpg",
+      "prompt": "The robot's LED eyes blink slowly as it slightly turns its head to survey the desolate landscape.",
+      "duration": 12.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_5.jpg",
+      "prompt": "The robot's LED eye blinks slowly as its arm gently raises, holding the books steady against the backdrop of drifting mist.",
+      "duration": 12.0,
+      "seed": 12345
+    },
+    {
+      "image": "data/images/old robot standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_2.jpg",
+      "prompt": "The two robots' antennae gently sway as they stand atop the cliff, with a soft breeze rustling through the canyon below.",
+      "duration": 12.0,
+      "seed": 12345
     }
   ]
 }
