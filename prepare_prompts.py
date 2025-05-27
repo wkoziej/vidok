@@ -41,20 +41,17 @@ def generate_motion_prompt(image_path):
                 IDENTIFY the main subject(s) in the image - this could be: people, animals, objects, vehicles, robots, 
                 landscapes, buildings, food, plants, or any other prominent element - and animate THAT subject.
                 
-                PREFER: Natural and engaging movements appropriate to the subject type:
+                PREFER: Natural and engaging movements appropriate to the subject type. Try to tell simple and one sentence story about the scene.
                 
                 AVOID: Static poses, and sounds
                 
-                Think: What would make the MAIN SUBJECT more alive , engaging and active ?
+                Think: What would make the MAIN SUBJECT more alive, engaging and active ?
                 Examples of preferred styles:
-                - "The cat is jumping around the room"
-                - "The old man is walking slowly around the room"
+                - "The cat is jumping around the room catching the mouse"
+                - "The old man is walking slowly around the room thinking about his life"
                 - "The dancing woman is dancing gracefully"
 
-                Focus on: Natural movements for the subject type, atmospheric effects, light changes, 
-                subtle environmental interactions, characteristic behaviors. O
                 
-                Describe the main subject, then its ENGAGING but NATURAL motion, then atmospheric details. 
                 Stay in a loop: one image in, one engaging motion prompt out. 
                 Do not explain, ask questions, or generate multiple options."""
             },
