@@ -957,19 +957,19 @@
     {
       "image": "data/images/old creature standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_0.jpg",
       "prompt": "The cloaked figure's attire ripples gently in a mysterious breeze, with the distant mist shifting subtly around the towering peaks.",
-      "duration": 7.0,
+      "duration": 17.0,
       "seed": 12345
     },
     {
       "image": "data/images/old robot partly covered with sand in the high mountains  A painting in the style of Zdzisław Beksiński .txt_0.jpg",
       "prompt": "The robot's antennae sway gently in the desert breeze while its mechanical eyes flicker softly, casting small shadows on the sand.",
-      "duration": 7.0,
+      "duration": 17.0,
       "seed": 12345
     },
     {
       "image": "data/images/old creature standing on the edge of the abyss in the high mountains  A painting in the style of Zdzisław Beksiński .txt_19.jpg",
       "prompt": "The cloaked figure's tattered robes flutter gently in the wind, while its antler-like horns sway subtly. Mist drifts slowly through the distant peaks, enhancing the scene’s ethereal atmosphere.",
-      "duration": 7.0,
+      "duration": 17.0,
       "seed": 12345
     }
   ]
