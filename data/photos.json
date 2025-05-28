@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "image": "data/photos/DZIK-ENERGY-ORANGE.jpg",
+      "prompt": "The can rotates quickly, showcasing its vibrant design.",
+      "duration": 3.0,
+      "seed": 1
+    },
+    {
+      "image": "data/photos/images.jpeg",
+      "prompt": "The can quickly rotates, revealing its vibrant colors under dynamic lighting.",
+      "duration": 3.0,
+      "seed": 1
+    },
+    {
+      "image": "data/photos/thumb_page_6a5729f2fdd15dfa70993b4385ba77e2.png",
+      "prompt": "The energy drink can quickly rotates, showcasing its vivid design and enticing text under a spotlight.",
+      "duration": 3.0,
+      "seed": 1
+    }
+  ]
+}
