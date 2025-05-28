@@ -11,6 +11,18 @@
       "prompt": "Bottles on the shelves gently sway and clink together. Camera is moving fast from top to bottom.",
       "duration": 3.0,
       "seed": 1
+    },
+    {
+      "image": "data/shelfs/Zrzut ekranu z 2025-05-28 10-12-31.png",
+      "prompt": "The cans are gently rolling back and forth on the shelf, nudging each other playfully. . Camera is moving fast from top to bottom.",
+      "duration": 5.0,
+      "seed": 1
+    },
+    {
+      "image": "data/shelfs/Zrzut ekranu z 2025-05-28 10-13-30.png",
+      "prompt": "Bottles on the shelf gently moving. Camera is moving fast from top to bottom.",
+      "duration": 5.0,
+      "seed": 1
     }
   ]
 }
