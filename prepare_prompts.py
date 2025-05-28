@@ -19,10 +19,15 @@ def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
-def generate_motion_prompt(image_path):
-    """Generate a motion-focused prompt for the given image using OpenAI's Vision API"""
-    base64_image = encode_image(image_path)
+def generate_motion_prompt(image_path, prompt_type="general"):
+    """Generate a motion-focused prompt for the given image using OpenAI's Vision API or a predefined product prompt."""
     image_filename = os.path.basename(image_path)
+
+    if prompt_type == "product":
+        return "The product or camera quickly rotates, showcasing product details from different angles."
+
+    # For "general" prompt type, use OpenAI API
+    base64_image = encode_image(image_path)
     
     headers = {
         "Content-Type": "application/json",
@@ -147,6 +152,8 @@ def main():
                        help='Default seed value (default: 31337)')
     parser.add_argument('--dry-run', action='store_true',
                        help='Show what would be done without making any changes')
+    parser.add_argument('--prompt-type', type=str, choices=['general', 'product'], default='general',
+                        help='Type of prompt to generate (default: general)')
     
     args = parser.parse_args()
     
@@ -155,6 +162,7 @@ def main():
     default_duration = args.duration
     default_seed = args.seed
     dry_run = args.dry_run
+    prompt_type_arg = args.prompt_type
     
     # Check if image directory exists
     if not os.path.exists(image_dir):
@@ -215,11 +223,11 @@ def main():
         
         # Generate prompt for new image
         if dry_run:
-            print(f"  🤖 Would generate prompt for this image")
+            print(f"  🤖 Would generate prompt for this image (type: {prompt_type_arg})")
             new_count += 1
         else:
-            print(f"  🤖 Generating prompt...")
-            prompt = generate_motion_prompt(image_path)
+            print(f"  🤖 Generating prompt (type: {prompt_type_arg})...")
+            prompt = generate_motion_prompt(image_path, prompt_type_arg)
             
             if prompt:
                 # Add new entry
