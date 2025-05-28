@@ -1,0 +1,16 @@
+{
+  "jobs": [
+    {
+      "image": "data/shelfs/cat.jpeg",
+      "prompt": "The cans on the shelf are wobbling slightly. Camera is moving fast from left to right.",
+      "duration": 3.0,
+      "seed": 1
+    },
+    {
+      "image": "data/shelfs/cat (1).jpeg",
+      "prompt": "Bottles on the shelves gently sway and clink together. Camera is moving fast from top to bottom.",
+      "duration": 3.0,
+      "seed": 1
+    }
+  ]
+}
