@@ -29,6 +29,24 @@
       "prompt": "The product and camera quickly rotates, showcasing product details from different angles.",
       "duration": 10.0,
       "seed": 1
+    },
+    {
+      "image": "data/photos/ProductImagePreview.jpg",
+      "prompt": "The product and camera quickly rotates, showcasing product from different angles.",
+      "duration": 5.0,
+      "seed": 1
+    },
+    {
+      "image": "data/photos/Zrzut ekranu 2025-05-28 133300.png",
+      "prompt": "The product and camera quickly rotates, showcasing product from different angles.",
+      "duration": 5.0,
+      "seed": 1
+    },
+    {
+      "image": "data/photos/Zrzut ekranu 2025-05-28 133629 1.png",
+      "prompt": "The product and camera quickly rotates, showcasing product details from different angles.",
+      "duration": 5.0,
+      "seed": 1
     }
   ]
 }
