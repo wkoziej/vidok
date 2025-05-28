@@ -17,6 +17,18 @@
       "prompt": "The energy drink can quickly rotates, showcasing its vivid design and enticing text under a spotlight.",
       "duration": 3.0,
       "seed": 1
+    },
+    {
+      "image": "data/photos/front_pl.3.full.jpg",
+      "prompt": "The product and camera quickly rotates, showcasing product details from different angles.",
+      "duration": 10.0,
+      "seed": 1
+    },
+    {
+      "image": "data/photos/images2.jpeg",
+      "prompt": "The product and camera quickly rotates, showcasing product details from different angles.",
+      "duration": 10.0,
+      "seed": 1
     }
   ]
 }
