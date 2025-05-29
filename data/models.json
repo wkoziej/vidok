@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "image": "data/models/BB_t1_783880.jpg",
+      "prompt": "The product or camera quickly rotates, showcasing product details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/models/BB_t1_222291.jpg",
+      "prompt": "The product or camera quickly rotates, showcasing product details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/models/532_Die_Ofenfrische_Salami-Jalapeno_VS_3D.jpg",
+      "prompt": "The product or camera quickly rotates, showcasing product details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/models/210745.png",
+      "prompt": "The product or camera quickly rotates, showcasing product details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    }
+  ]
+}

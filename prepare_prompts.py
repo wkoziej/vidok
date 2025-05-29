@@ -26,6 +26,9 @@ def generate_motion_prompt(image_path, prompt_type="general"):
     if prompt_type == "product":
         return "The product or camera quickly rotates, showcasing product details from different angles."
 
+    if prompt_type == "shelf":
+        return "Camera slowly moves around the shelf, showcasing products details from different angles."
+
     # For "general" prompt type, use OpenAI API
     base64_image = encode_image(image_path)
     
@@ -152,7 +155,7 @@ def main():
                        help='Default seed value (default: 31337)')
     parser.add_argument('--dry-run', action='store_true',
                        help='Show what would be done without making any changes')
-    parser.add_argument('--prompt-type', type=str, choices=['general', 'product'], default='general',
+    parser.add_argument('--prompt-type', type=str, choices=['general', 'product', 'shelf'], default='general',
                         help='Type of prompt to generate (default: general)')
     
     args = parser.parse_args()

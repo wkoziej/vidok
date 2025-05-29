@@ -23,6 +23,42 @@
       "prompt": "Bottles on the shelf gently moving. Camera is moving fast from top to bottom.",
       "duration": 5.0,
       "seed": 1
+    },
+    {
+      "image": "data/shelfs/200000008_AuditId_27017_ImageId_27937.jpg",
+      "prompt": "Camera slowly moves around the shelf, showcasing products details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/shelfs/lewiatan-0250187927-00287000536000004566351-00287000536000004566353.jpg",
+      "prompt": "Camera slowly moves around the shelf, showcasing products details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/shelfs/chata polska-0250053166-00287000662000003015100-00287000662000003015101.jpg",
+      "prompt": "Camera slowly moves around the shelf, showcasing products details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/shelfs/200000008_AuditId_27017_ImageId_27921.jpg",
+      "prompt": "Camera slowly moves around the shelf, showcasing products details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/shelfs/chata polska-0250055573-00287000614000003651993-00287000614000003651994.jpg",
+      "prompt": "Camera slowly moves around the shelf, showcasing products details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
+    },
+    {
+      "image": "data/shelfs/200000008_AuditId_27017_ImageId_27914.jpg",
+      "prompt": "Camera slowly moves around the shelf, showcasing products details from different angles.",
+      "duration": 5.0,
+      "seed": 31337
     }
   ]
 }
